@@ -1,0 +1,10 @@
+function escalera(num) {
+  var b="";
+  var a ="";
+  for(let i=1;i<=num;i++){
+    a+="#";
+    b+=a+"\n";
+    
+  }
+  return b;
+}
